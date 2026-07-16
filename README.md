@@ -84,6 +84,7 @@ This notebook is an educational demonstration of reproducible Python data analys
 ├── README.md 
 └── requirements.txt 
  
+```markdown
 
 ## Key outputs 
  
@@ -110,65 +111,55 @@ This notebook is an educational demonstration of reproducible Python data analys
 ```bash 
 conda create --name biomedical-python python=3.12 
 conda activate biomedical-python 
+``` 
  
-
-Install dependencies 
-
+### Install dependencies 
+ 
+```bash 
 conda install pandas numpy matplotlib seaborn scikit-learn jupyterlab 
+``` 
  
-
-Launch JupyterLab 
-
+### Launch JupyterLab 
+ 
+```bash 
 jupyter lab 
+``` 
  
-
 Then run: 
-
-notebooks/01_breast_cancer_eda.ipynb 
  
-
+```text 
+notebooks/01_breast_cancer_eda.ipynb 
+``` 
+ 
 from top to bottom. 
-
-Limitations 
-
-The dataset is historic and has only 569 samples. 
-
-The data may not represent current clinical populations, clinical workflows, or imaging technologies. 
-
-The workflow uses one train/test split rather than cross-validation. 
-
-No hyperparameter tuning, external validation, calibration analysis, fairness assessment, or prospective validation was performed. 
-
-The model is for educational demonstration only and is not clinically deployable. 
-
-Technical skills demonstrated 
-
-Python 
-
-JupyterLab 
-
-pandas 
-
-NumPy 
-
-matplotlib 
-
-seaborn 
-
-scikit-learn 
-
-Exploratory data analysis 
-
-Data-quality assessment 
-
-Data visualisation 
-
-Train/test splitting 
-
-Feature scaling 
-
-Logistic regression 
-
-Classification evaluation 
-
-Reproducible project organisation 
+ 
+## Limitations 
+ 
+- The dataset is historic and has only 569 samples. 
+- The data may not represent current clinical populations, clinical workflows, or imaging technologies. 
+- The workflow uses one train/test split rather than cross-validation. 
+- No hyperparameter tuning, external validation, calibration analysis, fairness assessment, or prospective validation was performed. 
+- The model is for educational demonstration only and is not clinically deployable. 
+ 
+## Technical skills demonstrated 
+ 
+- Python 
+- JupyterLab 
+- pandas 
+- NumPy 
+- matplotlib 
+- seaborn 
+- scikit-learn 
+- Exploratory data analysis 
+- Data-quality assessment 
+- Data visualisation 
+- Train/test splitting 
+- Feature scaling 
+- Logistic regression 
+- Classification evaluation 
+- Reproducible project organisation 
+ 
+## Author 
+ 
+Akash Bhardwaj   
+MSc Precision Medicine candidate, University of Glasgow 
